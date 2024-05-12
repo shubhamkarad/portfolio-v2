@@ -7,6 +7,12 @@ module.exports = {
     "./app/**/*.{js,jsx}",
     "./src/**/*.{js,jsx}",
   ],
+  screens: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1400px",
+  },
   prefix: "",
   theme: {
     container: {
@@ -90,6 +96,7 @@ module.exports = {
         work_project_bg_dark: "url(/work/project-bg-dark.png)",
         contact_me_light: "url(/contact/illustration-light.svg)",
         contact_me_dark: "url(/contact/illustration-dark.svg)",
+        shubham_bg: "url('/hero/shubham-new.png')",
       },
     },
   },

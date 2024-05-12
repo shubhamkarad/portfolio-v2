@@ -37,7 +37,7 @@ const Services = () => {
           {servicesData.map((item, index) => {
             return (
               <Card
-                className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative"
+                className="w-full max-w-[424px] xl:h-[300px] h-[370px] flex flex-col pt-16 pb-10 justify-center items-center relative"
                 key={index}
               >
                 <CardHeader className="text-primary absolute -top-[60px]">
@@ -46,7 +46,7 @@ const Services = () => {
                   </div>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <CardTitle className="mb-4">{item.title}</CardTitle>
+                  <CardTitle className="mb-4 mt-8">{item.title}</CardTitle>
                   <CardDescription className="text-lg">
                     {item.description}
                   </CardDescription>
