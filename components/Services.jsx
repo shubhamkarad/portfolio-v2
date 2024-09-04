@@ -11,19 +11,19 @@ const servicesData = [
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Web Design",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "I specialize in building and designing modern web applications with the latest UI designs and utilizing trending technology stacks. With my expertise, I ensure that your web app not only looks visually appealing but also provides a seamless and user-friendly experience.",
   },
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Web Developer",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "With over 3 years of experience in development, I specialize in building dynamic web applications using React, Angular, Next.js, and Node.js. Having worked with big clients, I have honed my skills in delivering high-quality solutions tailored to diverse needs.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
-    title: "App Developement",
+    title: "Videographer & Photographer",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "I love capturing the beauty of travel adventures through videography and photography. Using tools like Premiere Pro, VN Editor, and CapCut, I bring creativity to life through editing, crafting engaging videos that tell captivating stories.",
   },
 ];
 const Services = () => {
